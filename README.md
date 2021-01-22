@@ -8,4 +8,4 @@ after cloning
 4. php yii migrate
 5. yii currency -m=update   //for update dataes from http://www.cbr.ru/scripts/XML_daily.asp
 6. GET /currencies
-7. GET /currency/<id>
+7. GET /currency/id
