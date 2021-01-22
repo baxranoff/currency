@@ -63,7 +63,7 @@ class Currency extends \yii\db\ActiveRecord
 
     /**
      * @param $id
-     * @return get data with param $id
+     * @return gets data with param $id
      */
     public function getCurrency($id){
         $res = $this::findOne(['id' => $id]);
